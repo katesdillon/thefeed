@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(121, 7, 7);
+}
+
+nav{
+    background-color: rgb(113, 12, 12);
+    width: 300px;
+    position: fixed;
+    top: 200px;
+    left: 25px;
+}
+
+main{
+    background-color: rgb(118, 118, 118);
+    width: 650px;
+    margin-left: 500px;
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    background-color: rgb(206, 206, 206);
+    border: 3px rgb(101, 0, 0) solid;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+section img{
+    border: 3px rgb(101, 1, 1);
+}
+
+footer{
+    background-color: rgb(123, 7, 7);
+    width: 300px;
+    position: fixed;
+    bottom: 50px;
+    left: 25px;
+}
+
+#large_gif{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 25%;
+}
