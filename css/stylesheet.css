@@ -9,6 +9,8 @@ header{
     margin: auto;
     text-align: center;
     background-color: rgb(121, 7, 7);
+    color: rgb(175, 175, 175);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav{
@@ -44,6 +46,8 @@ footer{
     position: fixed;
     bottom: 50px;
     left: 25px;
+    text-decoration: none;
+    color: rgb(207, 203, 203);
 }
 
 #large_gif{
@@ -53,6 +57,19 @@ footer{
     margin-top: 15%;
 }
 
+#large_gif:hover{
+    background-color: rgb(189, 189, 189);
+    opacity: 50%;
+}
+
 #small_gif{
     width: 250px;
+}
+
+a{
+    color: rgb(203, 203, 203);
+}
+
+#classmate_names:hover{
+    background-color: rgb(0, 0, 0);
 }
