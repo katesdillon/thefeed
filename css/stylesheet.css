@@ -1,34 +1,41 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(211, 151, 151);
     max-width: 1200px;
     margin: auto;
 }
 
 header{
     width: 500px;
-    margin: auto;
+    margin-left: 280px;
     text-align: center;
-    color: rgb(175, 175, 175);
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
+    left: 600px;
 }
 
 nav{
     width: 300px;
     position: fixed;
-    top: 100px;
+    top: 75px;
     left: 25px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 main{
-    width: 650px;
-    margin-left: 500px;
+    width: 200px;
+    margin-left: 250px;
     text-align: center;
     padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(139, 81, 81);
+    font-size: large;
 }
 
 section{
-    background-color: rgb(206, 206, 206);
+    background-color:rgb(202, 202, 202);
     border: 3px rgb(101, 0, 0) solid;
     margin-top: 25px;
     text-align: center;
@@ -41,11 +48,13 @@ section img{
 
 footer{
     width: 300px;
-    position: fixed;
-    bottom: 5px;
-    left: 25px;
+    top: 75px;
+    right: 25px;
     text-decoration: none;
-    color: rgb(207, 203, 203);
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
 }
 
 #large_gif{
@@ -90,7 +99,14 @@ a{
     border-radius: 25px;
     background: #680909;
     padding: 2px; 
-    width: 500px; 
+    width: 600px; 
     text-align: center; 
     top: 25px;
+}
+
+#spotifyrcorner{
+    border-radius: 25px;
+    background: #680909;
+    padding: 20px; 
+    width: 200px;  
 }
